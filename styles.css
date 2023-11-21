@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    text-align: center;
+    width:auto;
+    font-family: Montserrat;
+    color: #433635;
+    width: 720px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.hero {
+    background-image: url("images/GdanskLandscape.jpg"); 
+    opacity: 0.8;
+    background-position: center center;
+    margin: 0;
+    width: 720px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#visit {
+    color: white;
+    background: #2B4769;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    margin-left: auto;
+}
+
+#come {
+    color: white;
+    background: #A3BFE1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: auto;
+}
+
+.places {
+    background-color: #D0AC7A;
+}
+
+#topThree {
+    margin: 0;
+    padding: 40px;
+}
+
+#stocznia, #oldTown, #mariacka {
+    flex: 1;
+    padding: 34px;
+}
+
+#stocznia:hover, #oldTown:hover, #mariacka:hover {
+    background-color: #A3BFE1;
+}
+
+.activities {
+    display: flex;
+}
+
+.bars {
+    background-color: #c6b096;
+}
+
+#flisak, #malaSztuka, #tlen {
+    flex: 1;
+    padding: 34px;
+}
+
+#flisak:hover, #malaSztuka:hover, #tlen:hover {
+    background-color: #A3BFE1;
+}
+
+.card {
+    width: 400px;
+    margin: 50px 160px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #A3BFE1;
+    border-bottom: 6px solid #2B4769;
+    border-radius: 10px;
+}
+
+.card:hover {
+    opacity: 0.9;
+}
+
+#profilePic {
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#mw {
+    font-style:italic;
+}
